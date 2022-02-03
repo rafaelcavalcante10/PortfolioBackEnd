@@ -1,0 +1,12 @@
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\bin\Debug\net5.0\Portfolio.Domain.deps.json
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\bin\Debug\net5.0\Portfolio.Domain.dll
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\bin\Debug\net5.0\ref\Portfolio.Domain.dll
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\bin\Debug\net5.0\Portfolio.Domain.pdb
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.csproj.AssemblyReference.cache
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.AssemblyInfoInputs.cache
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.AssemblyInfo.cs
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.dll
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\ref\Portfolio.Domain.dll
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.pdb
