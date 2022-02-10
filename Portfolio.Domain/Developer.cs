@@ -1,13 +1,12 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace Portfolio.Domain
 {
-    [Table("developer")]
+    
     public class Developer
     {
-        [Key]
+        
         public int id { get; set; }
         public string nome { get; set; }
         public DateTime nascimento { get; set; }
@@ -34,5 +33,6 @@ namespace Portfolio.Domain
         public string informacao { get; set; }
         public string cargo { get; set; }
         public string cargocompleto { get; set; }
+        public ICollection<Graduations> graduations { get; set; }
     }
 }

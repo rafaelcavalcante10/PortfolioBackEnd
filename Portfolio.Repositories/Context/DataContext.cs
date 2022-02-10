@@ -11,6 +11,7 @@ namespace Portfolio.Repositories.Context
         }
 
         public DbSet<Developer> Developers { get; set; }
+        public DbSet<Graduations> Graduations { get; set; }
 
     }
 }

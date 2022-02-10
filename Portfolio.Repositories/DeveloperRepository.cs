@@ -20,7 +20,8 @@ namespace Portfolio.Repositories
         {
             try
             {
-                IQueryable<Developer> query = _context.Developers;
+                IQueryable<Developer> query = _context.Developers.Include(d => d.graduations).OrderByDescending(o => o.id);
+                
                 if (query == null) return null;
 
                 return await query.ToArrayAsync();

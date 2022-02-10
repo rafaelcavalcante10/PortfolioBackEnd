@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Portfolio.Domain;
 
 namespace Portfolio.Repositories.Context
 {
@@ -17,6 +13,15 @@ namespace Portfolio.Repositories.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema("portfolio");
+
+            modelBuilder.Entity<Developer>().ToTable("developer").HasKey(k => k.id);
+            modelBuilder.Entity<Graduations>().ToTable("graduations").HasKey(k => k.id);
+            
+            modelBuilder.Entity<Developer>()
+                .HasMany(g => g.graduations)
+                .WithOne(d => d.developer)
+                .HasForeignKey(f => f.id_developer);
+                                
             OnModelCreatingPartial(modelBuilder);
         }
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
