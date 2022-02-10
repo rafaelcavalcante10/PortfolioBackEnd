@@ -33,6 +33,6 @@ namespace Portfolio.Domain
         public string resumo { get; set; }
         public string informacao { get; set; }
         public string cargo { get; set; }
-
+        public string cargocompleto { get; set; }
     }
 }
