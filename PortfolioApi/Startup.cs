@@ -31,8 +31,13 @@ namespace PortfolioApi
                         x => x.SerializerSettings.ReferenceLoopHandling =
                             Newtonsoft.Json.ReferenceLoopHandling.Ignore
                     );
-            services.AddScoped<IDeveloperService, DeveloperService>();
+            services.AddScoped<IHomePageService, HomePageService>();
             services.AddScoped<IDeveloperRepository, DeveloperRepository>();
+            services.AddScoped<IAboutPageService, AboutPageService>();
+            services.AddScoped<IResumePageService, ResumePageService>();
+            services.AddScoped<IGraduationRepository, GraduationRepository>();
+            services.AddScoped<IExperienceRepository, ExperienceRepository>();
+            services.AddScoped<IContactPageService, ContactPageService>();
             services.AddCors();
             services.AddSwaggerGen(c =>
             {

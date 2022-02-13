@@ -10,18 +10,6 @@ namespace Portfolio.Domain
         public int id { get; set; }
         public string nome { get; set; }
         public DateTime nascimento { get; set; }
-        public int idade
-        {
-            get
-            {
-                var YearsOld = (DateTime.Now.Year - nascimento.Year);
-                if (DateTime.Now.Month < nascimento.Month || (DateTime.Now.Month == nascimento.Month && DateTime.Now.Day < nascimento.Day))
-                {
-                    YearsOld--;
-                }
-                return (YearsOld < 0) ? 0 : YearsOld;
-            }
-        }
         public string endereco { get; set; }
         public string bairro { get; set; }
         public string cidade { get; set; }
@@ -33,6 +21,7 @@ namespace Portfolio.Domain
         public string informacao { get; set; }
         public string cargo { get; set; }
         public string cargocompleto { get; set; }
-        public ICollection<Graduations> graduations { get; set; }
+        public IEnumerable<Graduation> graduations { get; set; }
+        public ICollection<Experience> experiences { get; set; }
     }
 }

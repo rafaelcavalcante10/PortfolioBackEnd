@@ -1,9 +1,7 @@
 ﻿namespace Portfolio.Domain
-{
-    
-    public class Graduations
-    {
-        
+{   
+    public class Graduation
+    {       
         public int id { get; set; }
         public string curso { get; set; }
         public string inicio { get; set; }

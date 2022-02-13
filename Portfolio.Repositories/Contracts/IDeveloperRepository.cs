@@ -1,10 +1,9 @@
 ﻿using Portfolio.Domain;
-using System.Threading.Tasks;
 
 namespace Portfolio.Repositories.Contracts
 {
-    public interface IDeveloperRepository
+    public interface IDeveloperRepository : IBaseRepository<Developer>
     {
-        Task<Developer[]> GetDevelopers();
+
     }
 }

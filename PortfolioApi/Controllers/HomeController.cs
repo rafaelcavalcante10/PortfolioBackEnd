@@ -8,10 +8,10 @@ namespace PortfolioApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class DeveloperController : Controller
+    public class HomeController : Controller
     {
-        private readonly IDeveloperService _service;
-        public DeveloperController(IDeveloperService service)
+        private readonly IHomePageService _service;
+        public HomeController(IHomePageService service)
         {
             _service = service;
         }
@@ -21,7 +21,7 @@ namespace PortfolioApi.Controllers
         {
             try
             {
-                var developer = await _service.GetDevelopers();
+                var developer = await _service.DadosHomePage(1);
                 if (developer == null) return NotFound("Não foram encontrados dados no servidor. Tente novamente!");
 
                 return Ok(developer);
