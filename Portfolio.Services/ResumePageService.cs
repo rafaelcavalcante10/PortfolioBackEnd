@@ -13,13 +13,16 @@ namespace Portfolio.Services
         private readonly IDeveloperRepository _developerRepository;
         private readonly IGraduationRepository _graduationRepository;
         private readonly IExperienceRepository _experienceRepository;
+        private readonly IExperienceDetailRepository _experienceDetailRepository;
         public ResumePageService(IDeveloperRepository developerRepository,
             IGraduationRepository graduationRepository,
-            IExperienceRepository experienceRepository)
+            IExperienceRepository experienceRepository,
+            IExperienceDetailRepository experienceDetailRepository)
         {
             _developerRepository = developerRepository;
             _graduationRepository = graduationRepository;
             _experienceRepository = experienceRepository;
+            _experienceDetailRepository = _experienceDetailRepository;
         }
 
         public async Task<PortfolioResumeVM> DadosResumePage(int id)
@@ -27,8 +30,8 @@ namespace Portfolio.Services
             try
             {
                 var developer = _developerRepository.GetById(id);
-                var graduation = _graduationRepository.GetByIdDeveloper(id);
-                var experience = _experienceRepository.GetByIdDeveloper(id);
+                var graduations = _graduationRepository.GetByIdDeveloper(id);
+                var experiences = _experienceRepository.GetByIdDeveloper(id);
                 var resume = new PortfolioResumeVM();
                 resume.id = developer.id;
                 resume.bairro = developer.bairro;
@@ -39,9 +42,33 @@ namespace Portfolio.Services
                 resume.nome = developer.nome;
                 resume.telefone = developer.telefone;
                 resume.experiences = new List<Experience>();
-                resume.experiences = experience;
+                foreach(var experience in experiences)
+                {
+                    resume.experiences.Add(new Experience
+                    {
+                        id = experience.id,
+                        cargo = experience.cargo,
+                        empresa = experience.empresa,
+                        inicio = experience.inicio,
+                        fim = experience.fim,
+                        experienceDetails = new List<ExperienceDetail>(),
+                        id_developer = experience.id_developer
+                    });
+                }
                 resume.graduations = new List<Graduation>();
-                resume.graduations = graduation;
+                foreach(var graduation in graduations)
+                {
+                    resume.graduations.Add(new Graduation
+                    {
+                        id = graduation.id,
+                        curso = graduation.curso,
+                        descricao = graduation.descricao,
+                        inicio = graduation.inicio,
+                        fim = graduation.fim,
+                        id_developer = graduation.id_developer,
+                        universidade = graduation.universidade
+                    });
+                }
                 return resume;
             }
             catch(Exception ex)

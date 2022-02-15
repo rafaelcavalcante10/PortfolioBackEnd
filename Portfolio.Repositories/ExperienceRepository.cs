@@ -15,7 +15,7 @@ namespace Portfolio.Repositories
 
         public IList<Experience> GetByIdDeveloper(int id_developer)
         {
-            return _context.Experiences.Where(w => w.id_developer == id_developer).Include(e => e.experienceDetails).ToList();
+            return _context.Experiences.Where(w => w.id_developer == id_developer).Include(i => i.experienceDetails).ToList();
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Portfolio.Repositories
         {
             try
             {
-                var query = _context.Graduations.Where(w => w.id_developer == id_developer).ToList();                   
+                var query = _context.Graduations.Where(w => w.id_developer == id_developer).OrderByDescending(o => o.id).ToList();
                 if (query == null) return null;
 
                 return query;

@@ -11,9 +11,11 @@ namespace PortfolioApi.Controllers
     public class ResumeController : Controller
     {
         private readonly IResumePageService _service;
-        public ResumeController(IResumePageService service)
+        private readonly IExperienceDetailService _detailService;
+        public ResumeController(IResumePageService service, IExperienceDetailService detailService)
         {
             _service = service;
+            _detailService = detailService;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
@@ -24,6 +26,23 @@ namespace PortfolioApi.Controllers
                 if (developer == null) return NotFound("Não foram encontrados dados no servidor. Tente novamente!");
 
                 return Ok(developer);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError,
+                        $"Erro ao tentar acessar a API Linux. Erro: {ex.Message}");
+            }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            try
+            {
+                var details = await _detailService.BuscaPorIdExperience(id);
+                if (details == null) return NotFound("Não foram encontrados dodos no servidor. Tente novamente!");
+
+                return Ok(details);
             }
             catch (Exception ex)
             {

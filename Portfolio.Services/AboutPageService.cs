@@ -25,6 +25,7 @@ namespace Portfolio.Services
                 about.nascimento = developer.nascimento;
                 about.cidade = developer.cidade;
                 about.email = developer.email;
+                about.telefone = developer.telefone;
                 about.resumo = developer.resumo;
                 about.site = developer.site;
                 about.sobre = developer.sobre;

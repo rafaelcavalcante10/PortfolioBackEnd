@@ -35,8 +35,10 @@ namespace PortfolioApi
             services.AddScoped<IDeveloperRepository, DeveloperRepository>();
             services.AddScoped<IAboutPageService, AboutPageService>();
             services.AddScoped<IResumePageService, ResumePageService>();
+            services.AddScoped<IExperienceDetailService, ExperienceDetailService>();
             services.AddScoped<IGraduationRepository, GraduationRepository>();
             services.AddScoped<IExperienceRepository, ExperienceRepository>();
+            services.AddScoped<IExperienceDetailRepository, ExperienceDetailRepository>();
             services.AddScoped<IContactPageService, ContactPageService>();
             services.AddCors();
             services.AddSwaggerGen(c =>

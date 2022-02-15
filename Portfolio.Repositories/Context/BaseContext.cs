@@ -33,7 +33,7 @@ namespace Portfolio.Repositories.Context
                 .HasMany(d => d.experienceDetails)
                 .WithOne(e => e.experience)
                 .HasForeignKey(f => f.id_experience);
-                                
+
             OnModelCreatingPartial(modelBuilder);
         }
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

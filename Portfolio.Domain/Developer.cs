@@ -22,6 +22,6 @@ namespace Portfolio.Domain
         public string cargo { get; set; }
         public string cargocompleto { get; set; }
         public IEnumerable<Graduation> graduations { get; set; }
-        public ICollection<Experience> experiences { get; set; }
+        public IEnumerable<Experience> experiences { get; set; }
     }
 }
