@@ -1,5 +1,5 @@
 ﻿
-namespace Portfolio.Domain
+namespace Portfolio.Domain.Models
 {
     public class ExperienceDetail
     {

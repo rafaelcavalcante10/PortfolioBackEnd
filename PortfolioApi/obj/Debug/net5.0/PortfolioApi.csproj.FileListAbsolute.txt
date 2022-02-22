@@ -45,3 +45,5 @@ C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\ref\PortfolioApi.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.pdb
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.genruntimeconfig.cache
+C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\AutoMapper.dll
+C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

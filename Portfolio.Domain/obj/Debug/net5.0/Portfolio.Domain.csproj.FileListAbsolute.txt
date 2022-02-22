@@ -10,3 +10,6 @@ C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.
 C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\ref\Portfolio.Domain.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.pdb
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\bin\Debug\net5.0\Portfolio.Domain.runtimeconfig.json
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\bin\Debug\net5.0\Portfolio.Domain.runtimeconfig.dev.json
+C:\Projetos\PortfolioBackEnd\Portfolio.Domain\obj\Debug\net5.0\Portfolio.Domain.genruntimeconfig.cache

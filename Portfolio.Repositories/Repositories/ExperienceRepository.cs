@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Portfolio.Domain;
+using Portfolio.Domain.Models;
 using Portfolio.Repositories.Context;
 using Portfolio.Repositories.Contracts;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Portfolio.Repositories
+namespace Portfolio.Repositories.Repositories
 {
     public class ExperienceRepository : BaseRepository<Experience>, IExperienceRepository
     {

@@ -8,8 +8,10 @@ using Microsoft.OpenApi.Models;
 using Portfolio.Repositories;
 using Portfolio.Repositories.Context;
 using Portfolio.Repositories.Contracts;
+using Portfolio.Repositories.Repositories;
 using Portfolio.Services;
 using Portfolio.Services.Contracts;
+using System;
 
 namespace PortfolioApi
 {
@@ -31,15 +33,9 @@ namespace PortfolioApi
                         x => x.SerializerSettings.ReferenceLoopHandling =
                             Newtonsoft.Json.ReferenceLoopHandling.Ignore
                     );
-            services.AddScoped<IHomePageService, HomePageService>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IDeveloperRepository, DeveloperRepository>();
-            services.AddScoped<IAboutPageService, AboutPageService>();
-            services.AddScoped<IResumePageService, ResumePageService>();
-            services.AddScoped<IExperienceDetailService, ExperienceDetailService>();
-            services.AddScoped<IGraduationRepository, GraduationRepository>();
-            services.AddScoped<IExperienceRepository, ExperienceRepository>();
-            services.AddScoped<IExperienceDetailRepository, ExperienceDetailRepository>();
-            services.AddScoped<IContactPageService, ContactPageService>();
+            services.AddScoped<IPortfolioService, PortfolioService>();
             services.AddCors();
             services.AddSwaggerGen(c =>
             {

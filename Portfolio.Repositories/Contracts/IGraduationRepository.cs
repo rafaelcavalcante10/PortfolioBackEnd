@@ -1,4 +1,4 @@
-﻿using Portfolio.Domain;
+﻿using Portfolio.Domain.Models;
 using System.Collections.Generic;
 
 namespace Portfolio.Repositories.Contracts

@@ -1,11 +1,11 @@
-﻿using Portfolio.Domain;
+﻿using Portfolio.Domain.Models;
 using Portfolio.Repositories.Context;
 using Portfolio.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Portfolio.Repositories
+namespace Portfolio.Repositories.Repositories
 {
     public class GraduationRepository : BaseRepository<Graduation>, IGraduationRepository
     {
@@ -15,17 +15,7 @@ namespace Portfolio.Repositories
 
         public IList<Graduation> GetByIdDeveloper(int id_developer)
         {
-            try
-            {
-                var query = _context.Graduations.Where(w => w.id_developer == id_developer).OrderByDescending(o => o.id).ToList();
-                if (query == null) return null;
-
-                return query;
-            }
-            catch(Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+            return _context.Graduations.Where(w => w.id_developer == id_developer).OrderByDescending(o => o.id).ToList();
         }
     }
 }
