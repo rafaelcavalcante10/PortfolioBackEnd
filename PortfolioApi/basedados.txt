@@ -1,0 +1,8 @@
+Developer;1;Rafael Cavalcante;26/07/1983;Rua Itambacuri 330 casa 3;Jardim Catarina;São Gonçalo;rafaelcavalcante10.rc@gmail.com;;(21)98627-3391;Com grande experiência conquistada ao longo dos anos de trabalho, sou um Analista de Sistemas com ótimas práticas de desenvolvimento, boa lógica de programação e uma forte capacidade de trabalhar em equipe e sob pressão, atuando com muita eficiência em projetos de grande porte do mercado.;;;FullStack .NetCore + Angular;Desenvolvedor Sênior FullStack .NetCore + Angular;
+Graduation;1;Curso Superior de Tecnologia em Analise e Desenvolvimento de Sistemas;01/2020;12/2022;Anhanguera Educacional;;1;
+Experience;1;Analista de Sistemas;04/2014;08/2021;Montreal Oficial;1;
+Experience;2;Desenvolvedor FullStack NetCore + Angular;09/2021;01/2022;Pitang Consultoria e Sistemas;1;
+Experience;3;Analista de Sistemas Sênior;04/2022;10/2024;Cluster Reply;1;
+ExperienceDetail;1;1;Desenvolvimento de aplicações Windows Forms , Asp.Net Core, C#, Web Services, WebAPI Rest, Android. • Desenvolvimento com JavaScript, Html5, Css3, JQuery, Angular, NHibernate, Entity Framework Core. • Metodologia Ágil: Scrum e Kanban. • Conhecimentos PL/SQL em banco de dados Oracle e SQL Server.;
+ExperienceDetail;2;2;Desenvolvedor de sistemas fullstack com backend DotNet Core e frontend Angular Metodologias Ágeis - Scrum e Kanbam Azure DevOps, SqlServer;
+ExperienceDetail;3;3;Atuando alocado na Zurich Brasil nos projetos de Capitalização, Integração Contábil, Previdência Privada. Realizando manutenção de softwares e criação de novas soluções para atender a demanda do cliente. Utilizando Visual Studio 2022 e SQL Server 2019;

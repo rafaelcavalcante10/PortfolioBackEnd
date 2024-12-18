@@ -11,6 +11,10 @@ namespace Portfolio.Repositories.Repositories
         public ExperienceDetailRepository(DataContext context) : base(context)
         {
         }
+        public ExperienceDetail GetById(int id, int id_experience)
+        {
+            return _context.ExperienceDetails.Where(w => w.id == id && w.id_experience ==  id_experience).FirstOrDefault();
+        }
         public IList<ExperienceDetail> GetByIdExperience(int id_experience)
         {
             return _context.ExperienceDetails.Where(w => w.id_experience == id_experience).ToList();            

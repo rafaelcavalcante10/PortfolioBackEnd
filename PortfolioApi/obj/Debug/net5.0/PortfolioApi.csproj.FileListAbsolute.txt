@@ -5,7 +5,6 @@ C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\PortfolioApi.deps.jso
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\PortfolioApi.runtimeconfig.json
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\PortfolioApi.runtimeconfig.dev.json
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\PortfolioApi.dll
-C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\ref\PortfolioApi.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\PortfolioApi.pdb
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Humanizer.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
@@ -18,8 +17,6 @@ C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Microsoft.Extensions.
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Npgsql.dll
-C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -40,10 +37,18 @@ C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.MvcAppli
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\scopedcss\bundle\PortfolioApi.styles.css
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\staticwebassets\PortfolioApi.StaticWebAssets.Manifest.cache
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.RazorTargetAssemblyInfo.cache
-C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.csproj.CopyComplete
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\ref\PortfolioApi.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.pdb
 C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.genruntimeconfig.cache
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\AutoMapper.dll
 C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\PortfolioApi.sourcelink.json
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\staticwebassets\PortfolioApi.StaticWebAssets.Pack.cache
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\staticwebassets\msbuild.PortfolioApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\staticwebassets\msbuild.build.PortfolioApi.props
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.PortfolioApi.props
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.PortfolioApi.props
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\Portfoli.F681FCC7.Up2Date
+C:\Projetos\PortfolioBackEnd\PortfolioApi\obj\Debug\net5.0\refint\PortfolioApi.dll
+C:\Projetos\PortfolioBackEnd\PortfolioApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll

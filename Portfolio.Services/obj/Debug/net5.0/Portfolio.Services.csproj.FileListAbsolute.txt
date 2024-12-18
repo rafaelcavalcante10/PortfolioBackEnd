@@ -1,6 +1,5 @@
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\bin\Debug\net5.0\Portfolio.Services.deps.json
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\bin\Debug\net5.0\Portfolio.Services.dll
-C:\Projetos\PortfolioBackEnd\Portfolio.Services\bin\Debug\net5.0\ref\Portfolio.Services.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\bin\Debug\net5.0\Portfolio.Services.pdb
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\bin\Debug\net5.0\Portfolio.Domain.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\bin\Debug\net5.0\Portfolio.Repositories.dll
@@ -11,7 +10,9 @@ C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Servi
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.AssemblyInfoInputs.cache
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.AssemblyInfo.cs
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.csproj.CoreCompileInputs.cache
-C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.csproj.CopyComplete
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\ref\Portfolio.Services.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.pdb
+C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfolio.Services.sourcelink.json
+C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\Portfoli.9E6256F1.Up2Date
+C:\Projetos\PortfolioBackEnd\Portfolio.Services\obj\Debug\net5.0\refint\Portfolio.Services.dll

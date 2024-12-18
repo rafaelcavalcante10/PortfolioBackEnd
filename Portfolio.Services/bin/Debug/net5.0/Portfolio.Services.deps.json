@@ -196,7 +196,10 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10"
         },
         "runtime": {
-          "Portfolio.Domain.dll": {}
+          "Portfolio.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Portfolio.Repositories/1.0.0": {
@@ -206,7 +209,10 @@
           "Portfolio.Domain": "1.0.0"
         },
         "runtime": {
-          "Portfolio.Repositories.dll": {}
+          "Portfolio.Repositories.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -27,7 +27,8 @@ namespace PortfolioApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<DataContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Portfolio"));
             services.AddControllers()
                     .AddNewtonsoftJson(
                         x => x.SerializerSettings.ReferenceLoopHandling =
@@ -35,6 +36,9 @@ namespace PortfolioApi
                     );
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<IDeveloperRepository, DeveloperRepository>();
+            services.AddScoped<IExperienceDetailRepository, ExperienceDetailRepository>();
+            services.AddScoped<IExperienceRepository, ExperienceRepository>();
+            services.AddScoped<IGraduationRepository, GraduationRepository>();
             services.AddScoped<IPortfolioService, PortfolioService>();
             services.AddCors();
             services.AddSwaggerGen(c =>

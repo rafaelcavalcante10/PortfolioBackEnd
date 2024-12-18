@@ -2,7 +2,6 @@ C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.R
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.Repositories.runtimeconfig.json
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.Repositories.runtimeconfig.dev.json
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.Repositories.dll
-C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\ref\Portfolio.Repositories.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.Repositories.pdb
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.Domain.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\bin\Debug\net5.0\Portfolio.Domain.pdb
@@ -11,8 +10,10 @@ C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.R
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.AssemblyInfoInputs.cache
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.AssemblyInfo.cs
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.csproj.CoreCompileInputs.cache
-C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.csproj.CopyComplete
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\ref\Portfolio.Repositories.dll
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.pdb
 C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.genruntimeconfig.cache
+C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfolio.Repositories.sourcelink.json
+C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\Portfoli.9042AF40.Up2Date
+C:\Projetos\PortfolioBackEnd\Portfolio.Repositories\obj\Debug\net5.0\refint\Portfolio.Repositories.dll

@@ -12,6 +12,10 @@ namespace Portfolio.Services.Profiles
             CreateMap<Graduation, GraduationVM>();
             CreateMap<Experience, ExperienceVM>();
             CreateMap<ExperienceDetail, ExperienceDetailVM>();
+            CreateMap<PortfolioVM, Developer>();
+            CreateMap<GraduationVM, Graduation>();
+            CreateMap<ExperienceVM, Experience>();
+            CreateMap<ExperienceDetailVM, ExperienceDetail>();
         }
     }
 }
